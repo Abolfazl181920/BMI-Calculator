@@ -25,7 +25,7 @@ const App = () => {
 
 	return (
 		<div className="App">
-			<form action="#" className="flex">
+			<form action="#">
 				<label htmlFor="height"></label>
 				<label htmlFor="width"></label>
 
