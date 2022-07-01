@@ -20,7 +20,6 @@ const App = () => {
 	const getStatus = (bmi) => {
 		if (bmi < 18.5) return "UnderWeight";
 		else if (bmi >=18.5) return "Normal";
-		else if (bmi >= 24.5 && bmi < 29.9) return "OverWeight";
 		else return "Nothing"
 	}
 
